@@ -1,0 +1,57 @@
+netman@apolo:~/cursos/node.js/apps$ node_modules/express-generator/bin/express --ejs quiz
+
+   create : quiz
+   create : quiz/package.json
+   create : quiz/app.js
+   create : quiz/public
+   create : quiz/public/javascripts
+   create : quiz/public/stylesheets
+   create : quiz/public/stylesheets/style.css
+   create : quiz/routes
+   create : quiz/routes/index.js
+   create : quiz/routes/users.js
+   create : quiz/views
+   create : quiz/views/index.ejs
+   create : quiz/views/error.ejs
+   create : quiz/public/images
+   create : quiz/bin
+   create : quiz/bin/www
+
+   install dependencies:
+     $ cd quiz && npm install
+
+   run the app:
+     $ DEBUG=quiz ./bin/www
+
+netman@apolo:~/cursos/node.js/apps$ cd quiz/
+netman@apolo:~/cursos/node.js/apps/quiz$ git init
+Initialized empty Git repository in /home/netman/cursos/node.js/apps/quiz/.git/
+netman@apolo:~/cursos/node.js/apps/quiz$ git add .
+netman@apolo:~/cursos/node.js/apps/quiz$ git commit -m "esqueleto express-generator"
+[master (root-commit) c4913ca] esqueleto express-generator
+ Committer: Netman <netman@localhost>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 126 insertions(+)
+ create mode 100644 app.js
+ create mode 100755 bin/www
+ create mode 100644 package.json
+ create mode 100644 public/stylesheets/style.css
+ create mode 100644 routes/index.js
+ create mode 100644 routes/users.js
+ create mode 100644 views/error.ejs
+ create mode 100644 views/index.ejs
+netman@apolo:~/cursos/node.js/apps/quiz$ git config --global user.name "Miguel Sanjuán"
+netman@apolo:~/cursos/node.js/apps/quiz$ git config --global user.email msanjuan@midominio.org
+netman@apolo:~/cursos/node.js/apps/quiz$ git commit --amend --reset-author
+
+esqueleto express-generator
